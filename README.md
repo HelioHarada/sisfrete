@@ -8,9 +8,11 @@ de telefone adequado e false se não estiver. Assuma que qualquer número entre 
 (nos locais apropriados) produzem um número de telefone válido.
 É assim que um número de telefone válido se parece: (123) 456-7890
 Exemplos:
+
 isValid("(123) 456-7890") ➞ true
 isValid("1111)555 2345") ➞ false
 isValid("098) 123 4567") ➞ false
+
 Nota:
 Não esqueça o espaço após os parênteses.
 
@@ -19,6 +21,7 @@ Crie uma função que recebe uma string e remove todos os caracteres "especiais"
 exemplo,!@#$%^&\*) E retorne a nova string. Os únicos caracteres não alfanuméricos
 permitidos são traços -, underscore _ e espaços.
 Exemplos:
+
 removeCharacters("The quick green dog!") ➞ "The quick green dog"
 removeCharacters("%fd76$fd(-)6GvKlO.") ➞ "fd76fd-6GvKlO"
 removeCharacters("D0n$c sed 0di0 du1") ➞ "D0nc sed 0di0 du1"
@@ -41,6 +44,7 @@ calculaPontuacao("ABCBACC") ➞ [2, 2, 3]
 4 - Dividir string por caracteres idênticos
 Crie uma função que divida uma string em um array de grupos idênticos.
 Exemplo:
+
 dividirGrupos("555") ➞ ["555"]
 dividirGrupos("5556667788") ➞ ["555", "666", "77", "88"]
 dividirGrupos("aaabbbaabbab") ➞ ["aaa", "bbb", "aa", "bb", "a", "b"]
